@@ -7,6 +7,10 @@
 //
 
 #import "IXAppDelegate.h"
+#import "ATCoreDataStack.h"
+#import "IXTableViewController.h"
+#import "Note.h"
+#import "Notebook.h"
 
 @implementation IXAppDelegate
 
@@ -15,12 +19,37 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{                               
+    NSFetchRequest *request = [self getRequestWithEntityName:[Notebook entityName] andSortedBy:@"name" ascending:YES];
+    
+    NSFetchedResultsController *fetched = [[NSFetchedResultsController alloc] initWithFetchRequest:request managedObjectContext:self.managedObjectContext sectionNameKeyPath:nil cacheName:nil];
+    
+    
+    
+    
+    
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    IXTableViewController *tableVC = [[IXTableViewController alloc] initWithFetchedResultsController:fetched style:UITableViewStyleGrouped];
+    UINavigationController *tableNC = [[UINavigationController alloc] init];
+    
+    [tableNC pushViewController:tableVC animated:YES];
+    self.window.rootViewController = tableNC;
+    
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+- (NSFetchRequest *) getRequestWithEntityName:(id) aEntityName andSortedBy:(NSString *) sortedBy ascending:(BOOL) isAscending {
+    NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:aEntityName];
+    
+    request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:sortedBy ascending:isAscending]];
+    
+    return request;    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

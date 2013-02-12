@@ -18,6 +18,16 @@
 		3BA8AE5B16C684B60099467B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8AE5A16C684B60099467B /* Default@2x.png */; };
 		3BA8AE5D16C684B60099467B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8AE5C16C684B60099467B /* Default-568h@2x.png */; };
 		3BA8AE6016C684B60099467B /* CoreDataTest01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE5E16C684B60099467B /* CoreDataTest01.xcdatamodeld */; };
+		3BA8AE6E16C685EF0099467B /* IXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE6C16C685EF0099467B /* IXTableViewController.m */; };
+		3BA8AE6F16C685EF0099467B /* IXTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8AE6D16C685EF0099467B /* IXTableViewController.xib */; };
+		3BA8AE7316C6A6A80099467B /* vocabwords1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BA8AE7216C6A6A80099467B /* vocabwords1.txt */; };
+		3BA8AE7716C6A6E30099467B /* IXWordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE7616C6A6E30099467B /* IXWordsModel.m */; };
+		3BA8AE8216C6AC000099467B /* ATCoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE8116C6AC000099467B /* ATCoreDataStack.m */; };
+		3BA8AE8616C6B3780099467B /* ATCoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE8516C6B3780099467B /* ATCoreDataTableViewController.m */; };
+		3BA8AE8C16C6B7200099467B /* _Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE8916C6B7200099467B /* _Note.m */; };
+		3BA8AE8D16C6B7200099467B /* _Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE8B16C6B7200099467B /* _Notebook.m */; };
+		3BA8AE9216C6B72A0099467B /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE8F16C6B72A0099467B /* Note.m */; };
+		3BA8AE9316C6B72A0099467B /* Notebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA8AE9116C6B72A0099467B /* Notebook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +46,24 @@
 		3BA8AE5A16C684B60099467B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3BA8AE5C16C684B60099467B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3BA8AE5F16C684B60099467B /* CoreDataTest01.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTest01.xcdatamodel; sourceTree = "<group>"; };
+		3BA8AE6B16C685EF0099467B /* IXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXTableViewController.h; sourceTree = "<group>"; };
+		3BA8AE6C16C685EF0099467B /* IXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXTableViewController.m; sourceTree = "<group>"; };
+		3BA8AE6D16C685EF0099467B /* IXTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IXTableViewController.xib; sourceTree = "<group>"; };
+		3BA8AE7216C6A6A80099467B /* vocabwords1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vocabwords1.txt; sourceTree = "<group>"; };
+		3BA8AE7516C6A6E30099467B /* IXWordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXWordsModel.h; sourceTree = "<group>"; };
+		3BA8AE7616C6A6E30099467B /* IXWordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXWordsModel.m; sourceTree = "<group>"; };
+		3BA8AE8016C6AC000099467B /* ATCoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCoreDataStack.h; sourceTree = "<group>"; };
+		3BA8AE8116C6AC000099467B /* ATCoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCoreDataStack.m; sourceTree = "<group>"; };
+		3BA8AE8416C6B3780099467B /* ATCoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATCoreDataTableViewController.h; sourceTree = "<group>"; };
+		3BA8AE8516C6B3780099467B /* ATCoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATCoreDataTableViewController.m; sourceTree = "<group>"; };
+		3BA8AE8816C6B7200099467B /* _Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Note.h; sourceTree = "<group>"; };
+		3BA8AE8916C6B7200099467B /* _Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Note.m; sourceTree = "<group>"; };
+		3BA8AE8A16C6B7200099467B /* _Notebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Notebook.h; sourceTree = "<group>"; };
+		3BA8AE8B16C6B7200099467B /* _Notebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Notebook.m; sourceTree = "<group>"; };
+		3BA8AE8E16C6B72A0099467B /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		3BA8AE8F16C6B72A0099467B /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		3BA8AE9016C6B72A0099467B /* Notebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notebook.h; sourceTree = "<group>"; };
+		3BA8AE9116C6B72A0099467B /* Notebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notebook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +114,11 @@
 			children = (
 				3BA8AE5516C684B60099467B /* IXAppDelegate.h */,
 				3BA8AE5616C684B60099467B /* IXAppDelegate.m */,
-				3BA8AE5E16C684B60099467B /* CoreDataTest01.xcdatamodeld */,
+				3BA8AE7F16C6AA5B0099467B /* Managed Objects Classes */,
+				3BA8AE7816C6A6E80099467B /* Models */,
+				3BA8AE7116C686170099467B /* Core Data */,
+				3BA8AE7016C686060099467B /* Controllers */,
+				3BA8AE7416C6A6AF0099467B /* Resources */,
 				3BA8AE4D16C684B60099467B /* Supporting Files */,
 			);
 			path = CoreDataTest01;
@@ -104,6 +136,77 @@
 				3BA8AE5C16C684B60099467B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BA8AE7016C686060099467B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8AE8716C6B37F0099467B /* Frr Controllers */,
+				3BA8AE6B16C685EF0099467B /* IXTableViewController.h */,
+				3BA8AE6C16C685EF0099467B /* IXTableViewController.m */,
+				3BA8AE6D16C685EF0099467B /* IXTableViewController.xib */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3BA8AE7116C686170099467B /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8AE5E16C684B60099467B /* CoreDataTest01.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		3BA8AE7416C6A6AF0099467B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8AE7216C6A6A80099467B /* vocabwords1.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3BA8AE7816C6A6E80099467B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8AE7516C6A6E30099467B /* IXWordsModel.h */,
+				3BA8AE7616C6A6E30099467B /* IXWordsModel.m */,
+				3BA8AE8316C6AC060099467B /* Frr Model */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3BA8AE7F16C6AA5B0099467B /* Managed Objects Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8AE8E16C6B72A0099467B /* Note.h */,
+				3BA8AE8F16C6B72A0099467B /* Note.m */,
+				3BA8AE9016C6B72A0099467B /* Notebook.h */,
+				3BA8AE9116C6B72A0099467B /* Notebook.m */,
+				3BA8AE8816C6B7200099467B /* _Note.h */,
+				3BA8AE8916C6B7200099467B /* _Note.m */,
+				3BA8AE8A16C6B7200099467B /* _Notebook.h */,
+				3BA8AE8B16C6B7200099467B /* _Notebook.m */,
+			);
+			name = "Managed Objects Classes";
+			sourceTree = "<group>";
+		};
+		3BA8AE8316C6AC060099467B /* Frr Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8AE8016C6AC000099467B /* ATCoreDataStack.h */,
+				3BA8AE8116C6AC000099467B /* ATCoreDataStack.m */,
+			);
+			name = "Frr Model";
+			sourceTree = "<group>";
+		};
+		3BA8AE8716C6B37F0099467B /* Frr Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BA8AE8416C6B3780099467B /* ATCoreDataTableViewController.h */,
+				3BA8AE8516C6B3780099467B /* ATCoreDataTableViewController.m */,
+			);
+			name = "Frr Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +265,8 @@
 				3BA8AE5916C684B60099467B /* Default.png in Resources */,
 				3BA8AE5B16C684B60099467B /* Default@2x.png in Resources */,
 				3BA8AE5D16C684B60099467B /* Default-568h@2x.png in Resources */,
+				3BA8AE6F16C685EF0099467B /* IXTableViewController.xib in Resources */,
+				3BA8AE7316C6A6A80099467B /* vocabwords1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +280,14 @@
 				3BA8AE5316C684B60099467B /* main.m in Sources */,
 				3BA8AE5716C684B60099467B /* IXAppDelegate.m in Sources */,
 				3BA8AE6016C684B60099467B /* CoreDataTest01.xcdatamodeld in Sources */,
+				3BA8AE6E16C685EF0099467B /* IXTableViewController.m in Sources */,
+				3BA8AE7716C6A6E30099467B /* IXWordsModel.m in Sources */,
+				3BA8AE8216C6AC000099467B /* ATCoreDataStack.m in Sources */,
+				3BA8AE8616C6B3780099467B /* ATCoreDataTableViewController.m in Sources */,
+				3BA8AE8C16C6B7200099467B /* _Note.m in Sources */,
+				3BA8AE8D16C6B7200099467B /* _Notebook.m in Sources */,
+				3BA8AE9216C6B72A0099467B /* Note.m in Sources */,
+				3BA8AE9316C6B72A0099467B /* Notebook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
